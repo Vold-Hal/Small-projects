@@ -1,0 +1,75 @@
+
+colors-holder {
+    background-color: #870DD9;
+    background-color: #7F1FBF;
+    background-color: #4A1B8C;
+    background-color: #5F4A8C;
+    background-color: #0D0D0D;
+  }
+  
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0px;
+  }
+  
+  h1 {
+    color: #5F4A8C;
+    width: 100%;
+    text-align: center;
+    animation: fade-in 2s ease-in-out; 
+  }
+  
+  p {
+    color: #5F4A8C;
+    
+  }
+
+  #canvas {
+    background-color: #0D0D0D ;
+    color: #870DD9;
+    padding: 0px;
+    width: auto;
+    height: 100vh;
+  }
+
+  .text-container {
+    text-align: center;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .fly-out-anim{
+    animation: fly-out 1s ease-out forwards;
+  }
+  @keyframes fly-out {
+    0% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-200%);
+        opacity: 0;
+    }
+}
